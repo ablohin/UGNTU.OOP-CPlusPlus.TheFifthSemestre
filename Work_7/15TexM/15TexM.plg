@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 15TexM - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/15TexM.res" /d "_DEBUG" /d "_AFXDLL" "D:\15TexM\15TexM.rc"" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP32.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/15TexM.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"D:\15TexM\15TexM.cpp"
+"D:\15TexM\MainFrm.cpp"
+"D:\15TexM\ChildFrm.cpp"
+"D:\15TexM\15TexMDoc.cpp"
+"D:\15TexM\15TexMView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP32.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP33.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/15TexM.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"D:\15TexM\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP33.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP34.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/15TexM.pdb" /debug /machine:I386 /out:"Debug/15TexM.exe" /pdbtype:sept 
+.\Debug\15TexM.obj
+.\Debug\StdAfx.obj
+.\Debug\MainFrm.obj
+.\Debug\ChildFrm.obj
+.\Debug\15TexMDoc.obj
+.\Debug\15TexMView.obj
+.\Debug\15TexM.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP34.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+15TexM.cpp
+MainFrm.cpp
+ChildFrm.cpp
+15TexMDoc.cpp
+15TexMView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+15TexM.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

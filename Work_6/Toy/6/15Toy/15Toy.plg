@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 15Toy - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPB8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/15Toy.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\УГНТУ\ООП\4семестр\Лабораторные работы\Lab_6\Toy\6\15Toy\15Toy.cpp"
+"E:\УГНТУ\ООП\4семестр\Лабораторные работы\Lab_6\Toy\6\15Toy\15ToyDlg.cpp"
+"E:\УГНТУ\ООП\4семестр\Лабораторные работы\Lab_6\Toy\6\15Toy\SetDialog.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPB8.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPB9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/15Toy.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\УГНТУ\ООП\4семестр\Лабораторные работы\Lab_6\Toy\6\15Toy\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPB9.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/15Toy.pdb" /debug /machine:I386 /out:"Debug/15Toy.exe" /pdbtype:sept  ".\Debug\15Toy.obj" ".\Debug\15ToyDlg.obj" ".\Debug\SetDialog.obj" ".\Debug\StdAfx.obj" ".\Debug\15Toy.res" "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+15Toy.cpp
+15ToyDlg.cpp
+E:\УГНТУ\ООП\4семестр\Лабораторные работы\Lab_6\Toy\6\15Toy\15ToyDlg.cpp(179) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\УГНТУ\ООП\4семестр\Лабораторные работы\Lab_6\Toy\6\15Toy\15ToyDlg.cpp(183) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\УГНТУ\ООП\4семестр\Лабораторные работы\Lab_6\Toy\6\15Toy\15ToyDlg.cpp(183) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\УГНТУ\ООП\4семестр\Лабораторные работы\Lab_6\Toy\6\15Toy\15ToyDlg.cpp(183) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\УГНТУ\ООП\4семестр\Лабораторные работы\Lab_6\Toy\6\15Toy\15ToyDlg.cpp(183) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\УГНТУ\ООП\4семестр\Лабораторные работы\Lab_6\Toy\6\15Toy\15ToyDlg.cpp(187) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\УГНТУ\ООП\4семестр\Лабораторные работы\Lab_6\Toy\6\15Toy\15ToyDlg.cpp(187) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\УГНТУ\ООП\4семестр\Лабораторные работы\Lab_6\Toy\6\15Toy\15ToyDlg.cpp(187) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\УГНТУ\ООП\4семестр\Лабораторные работы\Lab_6\Toy\6\15Toy\15ToyDlg.cpp(187) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+SetDialog.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/15Toy.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\15Toy.sbr" ".\Debug\15ToyDlg.sbr" ".\Debug\SetDialog.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+15Toy.exe - 0 error(s), 9 warning(s)
+</pre>
+</body>
+</html>

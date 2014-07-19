@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 15Toy - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/15Toy.res" /d "_DEBUG" /d "_AFXDLL" "E:\УГНТУ\ООП\Помойка\OOP\lab_4\na sda4u\lab6\15Toy\15Toy.rc"" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP7A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/15Toy.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"E:\УГНТУ\ООП\Помойка\OOP\lab_4\na sda4u\lab6\15Toy\15Toy.cpp"
+"E:\УГНТУ\ООП\Помойка\OOP\lab_4\na sda4u\lab6\15Toy\15ToyDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP7A.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP7B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/15Toy.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"E:\УГНТУ\ООП\Помойка\OOP\lab_4\na sda4u\lab6\15Toy\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP7B.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/15Toy.pdb" /debug /machine:I386 /out:"Debug/15Toy.exe" /pdbtype:sept  ".\Debug\15Toy.obj" ".\Debug\15ToyDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\15Toy.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+15Toy.cpp
+15ToyDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+15Toy.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

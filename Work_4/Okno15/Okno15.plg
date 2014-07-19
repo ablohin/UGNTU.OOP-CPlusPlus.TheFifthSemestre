@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Okno15 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP65.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/Okno15.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Lab_2\Okno15\Okno15.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP65.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Okno15.pdb" /debug /machine:I386 /out:"Debug/Okno15.exe" /pdbtype:sept  .\Debug\Okno15.obj "
+<h3>Output Window</h3>
+Compiling...
+Okno15.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Okno15.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

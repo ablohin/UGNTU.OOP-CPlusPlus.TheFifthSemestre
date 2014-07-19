@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 15Oval - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/15Oval.res" /d "_DEBUG" /d "_AFXDLL" "E:\УГНТУ\ООП\4семестр\Лабораторные работы\Lab_8\15Oval\15Oval.rc"" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPA.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/15Oval.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\УГНТУ\ООП\4семестр\Лабораторные работы\Lab_8\15Oval\15Oval.cpp"
+"E:\УГНТУ\ООП\4семестр\Лабораторные работы\Lab_8\15Oval\15OvalDoc.cpp"
+"E:\УГНТУ\ООП\4семестр\Лабораторные работы\Lab_8\15Oval\15OvalView.cpp"
+"E:\УГНТУ\ООП\4семестр\Лабораторные работы\Lab_8\15Oval\ChildFrm.cpp"
+"E:\УГНТУ\ООП\4семестр\Лабораторные работы\Lab_8\15Oval\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPA.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/15Oval.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\УГНТУ\ООП\4семестр\Лабораторные работы\Lab_8\15Oval\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPB.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPC.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/15Oval.pdb" /debug /machine:I386 /out:"Debug/15Oval.exe" /pdbtype:sept 
+".\Debug\15Oval.obj"
+".\Debug\15OvalDoc.obj"
+".\Debug\15OvalView.obj"
+".\Debug\ChildFrm.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\15Oval.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSPC.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+15Oval.cpp
+15OvalDoc.cpp
+15OvalView.cpp
+ChildFrm.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+15Oval.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
